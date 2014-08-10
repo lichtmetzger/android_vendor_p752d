@@ -66,7 +66,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/p752d/proprietary/lib/libOmxWmvDec.so:system/lib/libOmxWmvDec.so \
     vendor/zte/p752d/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/zte/p752d/proprietary/bin/qmuxd:system/bin/qmuxd \
-    vendor/zte/p752d/proprietary/bin/rild:system/bin/rild \
     vendor/zte/p752d/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/zte/p752d/proprietary/lib/libauth.so:system/lib/libauth.so \
     vendor/zte/p752d/proprietary/lib/libaudioeq.so:system/lib/libaudioeq.so \
@@ -89,10 +88,12 @@ PRODUCT_COPY_FILES += \
     vendor/zte/p752d/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
     vendor/zte/p752d/proprietary/lib/libqmi.so:system/lib/libqmi.so \
     vendor/zte/p752d/proprietary/lib/libqueue.so:system/lib/libqueue.so \
-    vendor/zte/p752d/proprietary/lib/libril-qc-1.so:system/lib/libril-qc-1.so \
-    vendor/zte/p752d/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
-    vendor/zte/p752d/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/zte/p752d/proprietary/lib/libSimCardAuth.so:system/lib/libSimCardAuth.so \
+    vendor/zte/p752d/proprietary/bin/rild:system/bin/rild \
+    vendor/zte/p752d/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/zte/p752d/proprietary/lib/libril-qc-1.so:system/lib/libril-qc-1.so \
+    vendor/zte/p752d/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
+    vendor/zte/p752d/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
     vendor/zte/p752d/proprietary/lib/libwms.so:system/lib/libwms.so \
     vendor/zte/p752d/proprietary/lib/libwmsts.so:system/lib/libwmsts.so \
     vendor/zte/p752d/proprietary/bin/akmd8962:system/bin/akmd8962 \
