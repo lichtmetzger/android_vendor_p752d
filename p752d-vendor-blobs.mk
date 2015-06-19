@@ -98,22 +98,31 @@ PRODUCT_COPY_FILES += \
     vendor/zte/p752d/proprietary/lib/libwmsts.so:system/lib/libwmsts.so \
     vendor/zte/p752d/proprietary/bin/akmd8962:system/bin/akmd8962 \
     vendor/zte/p752d/proprietary/bin/hostapd:system/bin/hostapd \
-    vendor/zte/p752d/proprietary/etc/firmware/ath6k/AR6003/hw2.0/athtcmd_ram.bin:system/etc/firmware/ath6k/AR6003/hw2.0/athtcmd_ram.bin \
-    vendor/zte/p752d/proprietary/etc/firmware/ath6k/AR6003/hw2.0/athwlan.bin.z77:system/etc/firmware/ath6k/AR6003/hw2.0/athwlan.bin.z77 \
-    vendor/zte/p752d/proprietary/etc/firmware/ath6k/AR6003/hw2.0/bdata.SD31.bin:system/etc/firmware/ath6k/AR6003/hw2.0/bdata.SD31.bin \
-    vendor/zte/p752d/proprietary/etc/firmware/ath6k/AR6003/hw2.0/data.patch.hw2_0.bin:system/etc/firmware/ath6k/AR6003/hw2.0/data.patch.hw2_0.bin \
-    vendor/zte/p752d/proprietary/etc/firmware/ath6k/AR6003/hw2.0/device.bin:system/etc/firmware/ath6k/AR6003/hw2.0/device.bin \
-    vendor/zte/p752d/proprietary/etc/firmware/ath6k/AR6003/hw2.0/otp.bin.z77:system/etc/firmware/ath6k/AR6003/hw2.0/otp.bin.z77 \
-    vendor/zte/p752d/proprietary/etc/firmware/ath6k/AR6003/hw2.1.1/athtcmd_ram.bin:system/etc/firmware/ath6k/AR6003/hw2.1.1/athtcmd_ram.bin \
-    vendor/zte/p752d/proprietary/etc/firmware/ath6k/AR6003/hw2.1.1/athwlan.bin:system/etc/firmware/ath6k/AR6003/hw2.1.1/athwlan.bin \
-    vendor/zte/p752d/proprietary/etc/firmware/ath6k/AR6003/hw2.1.1/athwlan_mobile.bin:system/etc/firmware/ath6k/AR6003/hw2.1.1/athwlan_mobile.bin \
-    vendor/zte/p752d/proprietary/etc/firmware/ath6k/AR6003/hw2.1.1/athwlan_router.bin:system/etc/firmware/ath6k/AR6003/hw2.1.1/athwlan_router.bin \
-    vendor/zte/p752d/proprietary/etc/firmware/ath6k/AR6003/hw2.1.1/athwlan_tablet.bin:system/etc/firmware/ath6k/AR6003/hw2.1.1/athwlan_tablet.bin \
-    vendor/zte/p752d/proprietary/etc/firmware/ath6k/AR6003/hw2.1.1/bdata.SD31.bin:system/etc/firmware/ath6k/AR6003/hw2.1.1/bdata.SD31.bin \
-    vendor/zte/p752d/proprietary/etc/firmware/ath6k/AR6003/hw2.1.1/data.patch.hw3_0.bin:system/etc/firmware/ath6k/AR6003/hw2.1.1/data.patch.hw3_0.bin \
-    vendor/zte/p752d/proprietary/etc/firmware/ath6k/AR6003/hw2.1.1/device.bin:system/etc/firmware/ath6k/AR6003/hw2.1.1/device.bin \
-    vendor/zte/p752d/proprietary/etc/firmware/ath6k/AR6003/hw2.1.1/otp.bin:system/etc/firmware/ath6k/AR6003/hw2.1.1/otp.bin
-    
-    
-#vendor/zte/p752d/proprietary/wifi/ar6000.ko:system/wifi/ar6000.ko
-    
+    vendor/zte/p752d/proprietary/wifi/ar6000.ko:system/wifi/ar6000.ko \
+    vendor/zte/p752d/proprietary/wifi/ath6k/AR6003/hw2.0/athtcmd_ram.bin:system/wifi/ath6k/AR6003/hw2.0/athtcmd_ram.bin \
+    vendor/zte/p752d/proprietary/wifi/ath6k/AR6003/hw2.0/athwlan.bin.z77:system/wifi/ath6k/AR6003/hw2.0/athwlan.bin.z77 \
+    vendor/zte/p752d/proprietary/wifi/ath6k/AR6003/hw2.0/bdata.SD31.bin:system/wifi/ath6k/AR6003/hw2.0/bdata.SD31.bin \
+    vendor/zte/p752d/proprietary/wifi/ath6k/AR6003/hw2.0/data.patch.hw2_0.bin:system/wifi/ath6k/AR6003/hw2.0/data.patch.hw2_0.bin \
+    vendor/zte/p752d/proprietary/wifi/ath6k/AR6003/hw2.0/device.bin:system/wifi/ath6k/AR6003/hw2.0/device.bin \
+    vendor/zte/p752d/proprietary/wifi/ath6k/AR6003/hw2.0/otp.bin.z77:system/wifi/ath6k/AR6003/hw2.0/otp.bin.z77 \
+    vendor/zte/p752d/proprietary/wifi/ath6k/AR6003/hw2.1.1/athtcmd_ram.bin:system/wifi/ath6k/AR6003/hw2.1.1/athtcmd_ram.bin \
+    vendor/zte/p752d/proprietary/wifi/ath6k/AR6003/hw2.1.1/athwlan.bin:system/wifi/ath6k/AR6003/hw2.1.1/athwlan.bin \
+    vendor/zte/p752d/proprietary/wifi/ath6k/AR6003/hw2.1.1/athwlan_mobile.bin:system/wifi/ath6k/AR6003/hw2.1.1/athwlan_mobile.bin \
+    vendor/zte/p752d/proprietary/wifi/ath6k/AR6003/hw2.1.1/athwlan_router.bin:system/wifi/ath6k/AR6003/hw2.1.1/athwlan_router.bin \
+    vendor/zte/p752d/proprietary/wifi/ath6k/AR6003/hw2.1.1/athwlan_tablet.bin:system/wifi/ath6k/AR6003/hw2.1.1/athwlan_tablet.bin \
+    vendor/zte/p752d/proprietary/wifi/ath6k/AR6003/hw2.1.1/bdata.SD31.bin:system/wifi/ath6k/AR6003/hw2.1.1/bdata.SD31.bin \
+    vendor/zte/p752d/proprietary/wifi/ath6k/AR6003/hw2.1.1/data.patch.hw3_0.bin:system/wifi/ath6k/AR6003/hw2.1.1/data.patch.hw3_0.bin \
+    vendor/zte/p752d/proprietary/wifi/ath6k/AR6003/hw2.1.1/device.bin:system/wifi/ath6k/AR6003/hw2.1.1/device.bin \
+    vendor/zte/p752d/proprietary/wifi/ath6k/AR6003/hw2.1.1/otp.bin:system/wifi/ath6k/AR6003/hw2.1.1/otp.bin \
+    vendor/zte/p752d/proprietary/bin/wlan_tool:system/bin/wlan_tool \
+    vendor/zte/p752d/proprietary/bin/wmiconfig:system/bin/wmiconfig \
+    vendor/zte/p752d/proprietary/bin/abtfilt:system/bin/abtfilt \
+    vendor/zte/p752d/proprietary/bin/recEvent:system/bin/recEvent \
+    vendor/zte/p752d/proprietary/bin/tcmd_app:system/bin/tcmd_app \
+    vendor/zte/p752d/proprietary/bin/tcmd_shell:system/bin/tcmd_shell \
+    vendor/zte/p752d/proprietary/etc/Ver15_20120206_035_9920_ID0x57_turies_app.bin:system/etc/Ver15_20120206_035_9920_ID0x57_turies_app.bin
+
+
+
+
+
