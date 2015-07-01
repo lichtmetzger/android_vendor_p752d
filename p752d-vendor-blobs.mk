@@ -99,7 +99,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/p752d/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
     vendor/zte/p752d/proprietary/lib/libwms.so:system/lib/libwms.so \
     vendor/zte/p752d/proprietary/lib/libwmsts.so:system/lib/libwmsts.so \
-    vendor/zte/p752d/proprietary/bin/akmd8962:system/bin/akmd8962 \
     vendor/zte/p752d/proprietary/bin/hostapd:system/bin/hostapd \
     vendor/zte/p752d/proprietary/wifi/ar6000.ko:system/wifi/ar6000.ko \
     vendor/zte/p752d/proprietary/wifi/ath6k/AR6003/hw2.0/athtcmd_ram.bin:system/wifi/ath6k/AR6003/hw2.0/athtcmd_ram.bin \
