@@ -28,7 +28,9 @@ PRODUCT_COPY_FILES += \
     vendor/zte/p752d/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
     vendor/zte/p752d/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/zte/p752d/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
+    vendor/zte/p752d/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
     vendor/zte/p752d/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
+    vendor/zte/p752d/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
     vendor/zte/p752d/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/zte/p752d/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
     vendor/zte/p752d/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
