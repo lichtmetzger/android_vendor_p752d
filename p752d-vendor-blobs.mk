@@ -39,6 +39,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/p752d/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/zte/p752d/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/zte/p752d/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
+    vendor/zte/p752d/proprietary/lib/libcamera.so:system/lib/libcamera.so \
     vendor/zte/p752d/proprietary/bin/fmconfig:system/bin/fmconfig \
     vendor/zte/p752d/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/zte/p752d/proprietary/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
