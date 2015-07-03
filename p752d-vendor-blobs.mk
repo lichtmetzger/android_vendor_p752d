@@ -17,8 +17,7 @@
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
     vendor/zte/p752d/proprietary/lib/liboncrpc.so:obj/lib/liboncrpc.so \
-    vendor/zte/p752d/proprietary/lib/libnv.so:obj/lib/libnv.so \
-    vendor/zte/p752d/proprietary/lib/libcamera.so:obj/lib/libcamera.so
+    vendor/zte/p752d/proprietary/lib/libnv.so:obj/lib/libnv.so
 
 PRODUCT_COPY_FILES += \
     vendor/zte/p752d/proprietary/etc/BCM4330B1_002.001.032.0518.0520.hcd:system/etc/BCM4330B1_002.001.032.0518.0520.hcd \
@@ -39,7 +38,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/p752d/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/zte/p752d/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/zte/p752d/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
-    vendor/zte/p752d/proprietary/lib/libcamera.so:system/lib/libcamera.so \
+    vendor/zte/p752d/proprietary/lib/hw/camera.msm7x27a.so:system/lib/hw/camera.msm7x27a.so \
     vendor/zte/p752d/proprietary/bin/fmconfig:system/bin/fmconfig \
     vendor/zte/p752d/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/zte/p752d/proprietary/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
