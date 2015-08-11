@@ -40,6 +40,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/p752d/proprietary/bin/fmconfig:system/bin/fmconfig \
     vendor/zte/p752d/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/zte/p752d/proprietary/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
+    vendor/zte/p752d/proprietary/lib/libmmparser_divxdrmlib.so:system/lib/libmmparser_divxdrmlib.so \
     vendor/zte/p752d/proprietary/lib/libmm-adspsvc.so:system/lib/libmm-adspsvc.so \
     vendor/zte/p752d/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
     vendor/zte/p752d/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
