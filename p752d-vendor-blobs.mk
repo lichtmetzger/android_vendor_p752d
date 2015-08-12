@@ -51,6 +51,8 @@ PRODUCT_COPY_FILES += \
     vendor/zte/p752d/proprietary/lib/libOmxAmrEnc.so:system/lib/libOmxAmrEnc.so \
     vendor/zte/p752d/proprietary/lib/libOmxAmrRtpDec.so:system/lib/libOmxAmrRtpDec.so \
     vendor/zte/p752d/proprietary/lib/libOmxAmrwbDec.so:system/lib/libOmxAmrwbDec.so \
+    vendor/zte/p752d/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
+    vendor/zte/p752d/proprietary/lib/libOmxCore.so:system/lib/libOmxCore.so \
     vendor/zte/p752d/proprietary/lib/libOmxEvrcDec.so:system/lib/libOmxEvrcDec.so \
     vendor/zte/p752d/proprietary/lib/libOmxEvrcEnc.so:system/lib/libOmxEvrcEnc.so \
     vendor/zte/p752d/proprietary/lib/libOmxEvrcHwDec.so:system/lib/libOmxEvrcHwDec.so \
